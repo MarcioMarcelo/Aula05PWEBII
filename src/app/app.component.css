@@ -1,0 +1,51 @@
+.presentation {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  /* Centraliza o conteúdo horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.presentation .info {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.presentation .info p {
+  margin: 10px 0;
+}
+
+.presentation .info strong {
+  font-weight: bold;
+}
+
+.presentation .info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.presentation .info a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para o ícone do Github */
+.github-icon {
+  width: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
